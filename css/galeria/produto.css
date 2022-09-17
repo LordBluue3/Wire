@@ -1,0 +1,147 @@
+
+.container__titulo-desk {
+    margin-left: 2.313rem;
+    margin-right: 2.688rem;
+
+}
+
+.container__texto-desk {
+    margin-left: 2.313rem;
+    margin-right: 2.688rem;
+    margin-bottom: 5rem;
+}
+
+.container__titulo {
+    margin-left: 2.313rem;
+    margin-right: 2.688rem;
+
+}
+
+.titulo__galeria {
+    padding-left: 0rem !important;
+}
+
+.container__texto {
+    margin-left: 2.313rem;
+    margin-right: 2.688rem;
+    margin-bottom: 5rem;
+}
+
+.texto__produto {
+    font-family: 'Segoe UI, Regular';
+    font-size: 1.5rem;
+    color: var(--ciza-fonte);
+}
+
+.container__mais {
+    margin-left: 2.313rem;
+    margin-right: 2.688rem;
+    margin-bottom: 1.7rem;
+}
+
+.titulo__produto {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 1.25rem;
+    color: var(--ciza-fonte);
+    margin-bottom: 2rem;
+}
+
+.container__produtos-galeria {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__conteudo-produtos{
+    width: 30%;
+}
+
+.texto_conteudo {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+    margin-bottom: 2rem;
+    display: block;
+
+}
+
+.img__produtos-galeria{
+    width: 100%;
+    margin: 1rem;
+}
+
+.veja__mais{
+    margin: 1.2rem;
+    
+}
+.hr-desk {
+    margin-left: 11rem;
+    margin-right: 11rem;
+    display: none;
+}
+
+
+hr {
+    color: var(--ciza-fonte);
+    border-radius: 1px;
+    margin-left: 2.406rem;
+    margin-right: 2.344rem;
+
+}
+
+@media screen and (min-width: 861px) {
+    hr {
+        margin-left: 11rem;
+        margin-right: 11rem;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    hr {
+        margin-left: 11rem;
+        margin-right: 11rem;
+    }
+
+    .texto_conteudo {
+       display: none;
+    
+    }
+    .veja__mais{
+        display: none;
+        
+    }
+    .produtos{
+        margin-left: 11rem;
+        margin-right: 11rem;
+    }
+
+
+}
+
+@media screen and (min-width: 1000px) {
+    .hr-desk {
+        margin-left: 11rem;
+        margin-right: 11rem;
+        display: block;
+    }
+    .container__mais {
+        margin-left: 11rem;
+        margin-right: 11rem;
+        margin-top: 1.7rem;
+        margin-bottom: 1.7rem;
+        
+    }
+
+    
+}
+
+@media screen and (max-width:380px) {
+    .vt-section{
+        background-image: url("https://cdn.discordapp.com/attachments/701489669673844887/1020350016147165265/mobile-artur.png");
+
+    }
+    
+}
