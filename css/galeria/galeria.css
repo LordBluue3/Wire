@@ -1,0 +1,150 @@
+.container__produto {
+    margin-left: 2.313rem;
+    margin-right: 2.688rem;
+    margin-top: 3rem;
+}
+
+.titulo__galeria-desk {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 1.875rem;
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+    margin-bottom: 2rem;
+    display: none;
+ }
+
+.titulo__galeria {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 1.875rem;
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+    margin-bottom: 2rem;
+}
+
+.container__produto>div {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.imagem__principal {
+    width: 100%;
+    height: 20%;
+}
+
+.imagem__secundaria {
+    width: 23%;
+}
+
+.img__zap {
+    margin-bottom: 5rem;
+}
+
+.img__zap-desk {
+    margin-bottom: 5rem;
+}
+
+.produtos__versao-desk {
+    display: none;
+}
+
+.cotainer__desk{
+    margin-left: 11rem;
+    margin-right: 11rem;
+}
+
+@media screen and (min-width:500px) {
+    .img__zap {
+        margin-bottom: 5rem;
+        width: 70%;
+    }
+
+    .img__zap-desk {
+        margin-bottom: 5rem;
+        width: 90%;
+        
+    }
+
+}
+
+@media screen and (min-width:563px) {
+    .imagem__principal {
+        width: 100%;
+        height: 34rem;
+    }
+
+    .imagem__secundaria {
+        width: 7rem;
+    }
+
+    .container__produto {
+        width: 33rem;
+    }
+
+    .galeria {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width: 1000px) {
+    .produtos__versao-desk {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 45rem;
+    }
+
+    .cotainer__desk {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img__zap {
+        display: none;
+    }
+
+    .container__titulo {
+        display: none;
+    }
+
+    .container__texto {
+        display: none;
+    }
+    .titulo__galeria-desk {
+        display: block;
+        
+     }
+    
+    .titulo__galeria {
+       display: none;
+    }
+    .container__imagem-zap{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 1446px) {
+    .cotainer__desk{
+        flex-direction: column;
+    }
+    
+}
+/*Parei aqui, resolver esse pepino da imagem do zap que tem que ficar centralizada quando ela ficar no tamanho da desktop*/
+@media screen and (min-width: 1446) {
+    .img__zap-desk{
+        margin-top: 10rem;
+    }
+    .produtos__versao-desk{
+
+    }
+    
+}
