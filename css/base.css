@@ -1,0 +1,17 @@
+:root {
+    --branco: #FFFFFF;
+    --cinza: #F2F2F2;
+    --ciza-fonte: #707070;
+    --cinza-container: #ECECEC;
+    --cinza-box: #EFEFEF;
+    --cinza-galeria: #E2E2E2;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
