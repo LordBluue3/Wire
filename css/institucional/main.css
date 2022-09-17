@@ -1,0 +1,76 @@
+.texto {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+
+.titulo__texto {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: clamp(1.875rem, 3.5vw, 6rem);
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+    margin-bottom: 2rem;
+}
+
+.texto__institucional {
+    font-family: 'Segoe UI, Regular';
+    color: var(--ciza-fonte);
+    font-size: clamp(1.25rem,1.7vw, 3rem);
+    margin-bottom: 4rem;
+}
+
+.foto__institucional {
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.foto__institucional-foto {
+    margin-bottom: 4rem;
+    background-image: url("../../assets/img/foto_institucional.svg");
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 21rem;
+
+
+}
+
+.container__foto-institucional {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+hr {
+    color: var(--ciza-fonte);
+    border-radius: 1px;
+    margin-left: 2.406rem;
+    margin-right: 2.344rem;
+
+
+}
+
+@media screen and (min-width: 861px) {
+    hr {
+        margin-left: 11rem;
+        margin-right: 11rem;
+    }
+
+}
+
+@media screen and (min-width: 720px) {
+
+    .foto__institucional-foto {
+        background-image: url("../../assets/img/foto__institucional2.svg");
+        background-repeat: no-repeat;
+        height: 42.75rem;
+        width: 100%;
+
+    }
+
+
+}
