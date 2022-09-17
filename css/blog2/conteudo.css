@@ -1,0 +1,75 @@
+.banner__blog-mobiel {
+    background-image: url("../../assets/img/banner__blog-mobiel.svg");
+    height: 22.75rem;
+    width: 22.5rem;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    display: block;
+   
+}
+
+.banner__blog {
+    margin-top: 4rem;
+    background-image: url("../../assets/img/foto_blog2.svg");
+    height: 22.75rem;
+    width: 21rem;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    display: none;
+   
+}
+
+.container__conteudo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo__blog2 {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: clamp(1.875rem, 3.5vw, 6rem);
+    padding-right: 1.155rem;
+    padding-left: 1.9rem;
+    color: var(--ciza-fonte);
+    margin-top: 5.375rem;
+    margin-bottom: 2rem;
+}
+
+.container__texto {
+    margin-left: 2.438rem;
+    margin-right: 2.313rem;
+    margin-bottom: 9.044rem;
+    text-align: left;
+
+}
+
+.texto__blog2 {
+    font-family: 'Segoe UI, Regular';
+    color: var(--ciza-fonte);
+    font-size: clamp(1.25rem,1.68vw, 3rem);
+}
+.container__banner-blog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 720px) {
+
+    .banner__blog {
+        background-image: url("../../assets/img/foto__blog2-desk.svg");
+        background-repeat: no-repeat;
+        height: 32.75rem;
+        width: 100%;
+        display: block;
+
+    }
+    .banner__blog-mobiel {
+        display: none;
+       
+    }
+
+
+}
