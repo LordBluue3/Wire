@@ -1,0 +1,94 @@
+.cotaniner__blog {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.titulo__blog {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 1.875rem;
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+
+}
+
+.container__conteudo-blog {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.produto-blog {
+    width: 15rem;
+    height: 20rem;
+    background-color: var(--cinza-galeria);
+    margin-top: 2rem;
+
+}
+
+.container__conteudo-produtos-blog {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 16rem;
+    cursor: pointer;
+    margin-left: 1rem;
+
+
+}
+
+.container__conteudo-produtos-blog>img {
+    width: 8rem;
+    right: 10rem;
+
+}
+
+.container__conteudo-produtos-blog>.container__vejamais-blog {
+    width: 100%;
+    display: flex;
+    margin-left: 1rem;
+}
+
+
+.texto_conteudo {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+    margin-bottom: 2rem;
+    display: block;
+
+}
+
+@media screen and (min-width:890px) {
+    .container__conteudo-blog{
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media screen and (min-width:1078px) {
+
+    .container__conteudo-produtos-blog {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 25rem;
+    }
+
+    .produto-blog {
+        width: 23rem;
+        height: 25rem;
+
+    }
+
+    .texto_conteudo-blog {
+        margin-right: 8rem;
+    }
+
+
+}
+
+/*Teste*/
