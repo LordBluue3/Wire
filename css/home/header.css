@@ -1,0 +1,6 @@
+.container__zap{
+    position: fixed;
+    left: 90%;
+    top: 34%;
+    cursor: pointer;
+}
