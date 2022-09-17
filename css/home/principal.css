@@ -1,0 +1,75 @@
+.principal__sobreposicao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.carousel-indicators li {
+    background-color: var(--cinza-container);
+    width: 0.85rem;
+    height: 0.85rem;
+}
+
+.carousel-indicators .active {
+    background-color: gray;
+    width: 0.86rem;
+    height: 0.86rem;
+
+}
+
+.carousel {
+    position: absolute;
+    margin-top: -60px;
+    height: 25rem;
+}
+
+.carousel-inner {
+    display: flex;
+    height: 25rem;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal__container {
+    background-color: white;
+    height: 13rem;
+    width: 10rem;
+    position: absolute;
+    margin-left: 6.3rem;
+    border-radius: 15px;
+    box-shadow: 0px 1px 20px 15px rgb(215 215 215 / 20%);
+    box-shadow: o;
+}
+
+.texto__principal {
+    margin-top: 16rem;
+    font-family: 'Segoe UI, Regular';
+    color: var(--ciza-fonte);
+    font-size: 1.25rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+
+}
+
+.principal__container_next {
+    background-color: white;
+    height: 13rem;
+    width: 10rem;
+    position: absolute;
+    margin-top: -40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(215, 215, 215, 0.5);
+    box-shadow: o;
+}
