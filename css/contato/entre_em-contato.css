@@ -1,0 +1,251 @@
+.entre__em-contato{
+    display: flex;
+    flex-direction: column;
+}
+.container__contato {
+    margin-left: 3rem;
+    margin-right: 2.313rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.titulo__contato-titulo {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+    margin-top: 3.769rem;
+    margin-bottom: 1rem;
+    width: 16rem;
+    margin-bottom: 3rem !important;
+}
+
+.container__texto-contato {
+    text-align: left;
+}
+
+.zap__banner-desk {
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    display: none;
+}
+
+.zap__banner {
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+   
+}
+
+form {
+    margin-left: 3rem;
+    margin-right: 2.313rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form>input {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    height: 1.5rem;
+    border: 1px solid var(--ciza-fonte);
+    font-size: clamp(1.25rem,1.7vw, 1rem);
+    height: 3.5rem;
+}
+
+form>textarea {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    border: 1px solid var(--ciza-fonte);
+    font-size: clamp(1.25rem,1.7vw, 1rem);
+    height: 8rem;
+}
+
+form>div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7.063rem;
+}
+
+.enviar {
+    width: 9rem;
+    height: 2.5rem;
+    border: none;
+    color: var(--ciza-fonte);
+}
+
+hr {
+    color: var(--ciza-fonte);
+    border-radius: 1px;
+    margin-left: 2.406rem;
+    margin-right: 2.344rem;
+
+
+}
+
+@media screen and (min-width: 861px) {
+    hr {
+        margin-left: 11rem;
+        margin-right: 11rem;
+    }
+
+}
+
+@media screen and (min-width: 861px) {
+    .zap__banner-desk {
+        margin-top: 5rem;
+        margin-bottom: 2.5rem;
+        height: 8rem;
+        width: 31rem;
+        display: block;
+    }
+    .zap__banner {
+        margin-top: 5rem;
+        margin-bottom: 2.5rem;
+        display: none;
+    }
+    .entre__em-contato{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+    }
+    .container__contato{
+        margin-right: 0;
+        
+    }
+    .container__texto-contato{
+        width: 48%;
+    }
+    form{
+        width: 50%;
+        justify-content: flex-end
+    }
+
+    form>input {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 0.9rem;
+        margin-bottom: 0.2rem;
+        height: 1.5rem;
+        border: 1px solid var(--ciza-fonte);
+        height: 3.5rem;
+        font-size: clamp(1.25rem,1.7vw, 1rem);
+        text-align: left;
+        padding-left: 3rem ;
+        width: 34.625rem;
+ 
+    }
+
+    form >textarea{
+        margin-top: 0.9rem;
+        font-size: clamp(1.25rem,1.7vw, 1rem);
+        height: 8rem;
+        text-align: left;
+        padding-left: 3rem ;
+        width: 34.625rem;
+        border: 1px solid var(--ciza-fonte);
+    }
+
+    form > div {
+        margin-bottom: 0;
+        justify-content: flex-end;
+        width: 38rem;
+    }
+    
+    .enviar{
+        height: 4rem;
+        width: 10rem;
+        border-color: var(--ciza-fonte);
+        font-size: clamp(1.25rem,1.7vw, 1rem);
+    }
+    .titulo__contato-titulo{
+        width: 31rem;
+        
+    }
+}
+@media screen and (max-width: 1237px) {
+    .entre__em-contato{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container__contato{
+        align-items: center;  
+    }
+    form > div {
+        justify-content: center;
+       
+    }
+    
+}
+
+@media screen and (max-width: 1414px) {
+    .container__contato{
+        align-items: flex-start;
+        
+    }
+    .container__texto-contato{
+        width: 90%;
+    }
+   
+    
+}
+@media screen and (max-width: 1237px) {
+
+    .container__contato{
+        align-items: center;
+        
+    }
+    .container__texto-contato{
+        width: 48%;
+    }
+    form {
+        align-items: center;
+    }
+    form > input {
+        width: 24.625rem;
+    }
+    form > textarea {
+        width: 24.625rem;
+    }
+   
+    
+}
+@media screen and (max-width:847px) {
+
+    .container__texto-contato{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:478px) {
+    form > input {
+        width: 90%;
+    }
+    form > textarea {
+        width: 90%;
+    }
+    .container__texto-contato{
+        width: 99.9%;
+    }
+    
+}
+@media screen and (max-width:1117px) {
+    .zap__banner-desk{
+        width: 90% ;
+    }
+    
+}
+
+
+
