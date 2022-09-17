@@ -1,0 +1,93 @@
+.titulo__galeria {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 1.875rem;
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+}
+
+.container__galeria {
+    margin-left: 2.313rem;
+    margin-right: 2.313rem;
+}
+
+.table__galeria {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 17.563rem;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.box__galeria_direita {
+    height: 8rem;
+    width: 8rem;
+    background-color: var(--cinza-box);
+    border-left: 0.375rem solid white;
+    border-top: 0.813rem solid white;
+
+}
+
+.box__galeria_esquerda {
+    height: 8rem;
+    width: 8rem;
+    background-color: var(--cinza-box);
+    border-left: 0.375rem solid white;
+    border-top: 0.813rem solid white;
+}
+
+.container__image {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
+}
+
+.banner__produto {
+    width: 100%;
+    padding-top: 5.063rem;
+    background-image: url("../../assets/img/banner-produto.svg");
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+
+.container__box-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.container__conteudo-produtos{
+    margin-left: 1rem;
+    margin-top: -1rem;
+}
+
+@media screen and (min-width:363px) {
+    .banner__produto {
+        width: 100%;
+        padding-top: 5.063rem;
+        height: 30rem;
+        background-image: url("../../assets/img/banner-destaque-home.svg");
+        background-repeat: no-repeat;
+    }
+
+
+}
+@media screen and (max-width:700px) {
+    .texto_conteudo{
+        display: none !important;
+    }
+    
+}
+
+@media screen and (min-width:890px) {
+    #box_sumir{
+        display: none;
+    } 
+    
+}
+
+
+
