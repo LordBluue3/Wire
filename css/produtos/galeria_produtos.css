@@ -1,0 +1,203 @@
+.galeria__produtos {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.titulo__produtos {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 1.875rem;
+    padding-right: 1.155rem;
+    padding-left: 1.155rem;
+    color: var(--ciza-fonte);
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.container__produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.container__titulo {
+    display: none;
+    width: 78%;
+}
+
+.titulo__produtos-desk {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 1.875rem;
+    padding-right: 1.155rem;
+    padding-left: 1.155rem;
+    color: var(--ciza-fonte);
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    display: none;
+}
+
+.produto {
+    height: 5.938rem;
+    width: 5.375rem;
+    background-color: var(--cinza-galeria);
+    margin-top: 2rem;
+}
+
+.container__conteudo-produtos {
+    display: block;
+}
+
+.container__conteudo-produtos>img {
+    display: none;
+}
+
+.container__conteudo-produtos>.container__vejamais {
+    display: none;
+}
+
+.texto_conteudo {
+    display: none;
+}
+
+hr {
+    color: var(--ciza-fonte);
+    border-radius: 1px;
+    margin-left: 2.406rem;
+    margin-right: 2.344rem;
+    margin-top: 5rem;
+
+}
+
+@media screen and (min-width: 861px) {
+    hr {
+        margin-left: 11rem;
+        margin-right: 11rem;
+    }
+
+}
+
+@media screen and (min-width: 407px) {
+    .produto {
+        margin: 1rem;
+    }
+
+
+}
+
+@media screen and (min-width: 700px) {
+    .produto {
+        width: 15rem;
+        height: 20rem;
+    }
+
+    .container__conteudo-produtos {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 16rem;
+        cursor: pointer;
+
+    }
+
+    .container__conteudo-produtos>img {
+        width: 8rem;
+        right: 10rem;
+
+    }
+
+    .container__conteudo-produtos>.container__vejamais {
+        width: 100%;
+        display: flex;
+        margin-left: 1rem;
+    }
+
+
+    .texto_conteudo {
+        font-family: 'Segoe UI';
+        font-weight: bolder;
+        font-size: clamp(1rem, 2.5vw, 1.5rem);
+        padding-left: 1rem;
+        color: var(--ciza-fonte);
+        margin-bottom: 2rem;
+        display: block;
+
+    }
+
+    .titulo__produtos {
+        display: none;
+
+    }
+
+    .titulo__produtos-desk {
+        display: block;
+
+    }
+
+    .container__titulo {
+        display: flex;
+        width: 78%;
+    }
+
+
+}
+
+
+@media screen and (min-width:1087px) {
+
+    .container__conteudo-produtos {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 20rem;
+    }
+
+    .container__produtos {
+        justify-content: center
+    }
+
+    .produto {
+        width: 15rem;
+        height: 20rem;
+    }
+
+
+}
+
+@media screen and (min-width:1343px) {
+
+    .container__conteudo-produtos {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 25rem;
+    }
+
+    .produto {
+        width: 23rem;
+        height: 25rem;
+
+    }
+
+    .texto_conteudo {
+        margin-right: 8rem;
+    }
+
+
+}
+
+@media screen and (min-width:1663px) {
+
+    .container__conteudo-produtos {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 30rem;
+
+    }
+
+}
