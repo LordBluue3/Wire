@@ -1,0 +1,13 @@
+<svg id="Componente_11_6" data-name="Componente 11 – 6" xmlns="http://www.w3.org/2000/svg" width="360" height="567" viewBox="0 0 360 567">
+  <rect id="Retângulo_50" data-name="Retângulo 50" width="360" height="517" fill="#fff"/>
+  <g id="Grupo_50" data-name="Grupo 50" transform="translate(-12 521)">
+    <rect id="Retângulo_38" data-name="Retângulo 38" width="27" height="3" rx="1.5" transform="translate(308 27)" fill="#636363"/>
+    <rect id="Retângulo_39" data-name="Retângulo 39" width="27" height="3" rx="1.5" transform="translate(308 35)" fill="#636363"/>
+    <rect id="Retângulo_40" data-name="Retângulo 40" width="27" height="3" rx="1.5" transform="translate(308 43)" fill="#636363"/>
+  </g>
+  <text id="Institucional" transform="translate(180 182)" fill="#707070" font-size="25" font-family="SegoeUI, Segoe UI" opacity="0"><tspan x="-66" y="0">Institucional</tspan></text>
+  <text id="Home" transform="translate(180 113)" fill="#707070" font-size="25" font-family="SegoeUI, Segoe UI" opacity="0"><tspan x="-33" y="0">Home</tspan></text>
+  <text id="Produtos" transform="translate(180 251)" fill="#707070" font-size="25" font-family="SegoeUI, Segoe UI" opacity="0"><tspan x="-49" y="0">Produtos</tspan></text>
+  <text id="Blog" transform="translate(180 320)" fill="#707070" font-size="25" font-family="SegoeUI, Segoe UI" opacity="0"><tspan x="-24" y="0">Blog</tspan></text>
+  <text id="Contato" transform="translate(180 389)" fill="#707070" font-size="25" font-family="SegoeUI, Segoe UI" opacity="0"><tspan x="-44" y="0">Contato</tspan></text>
+</svg>
