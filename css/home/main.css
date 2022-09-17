@@ -1,0 +1,24 @@
+main {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+hr {
+    color: var(--ciza-fonte);
+    border-radius: 1px;
+    margin-left: 2.406rem;
+    margin-right: 2.344rem;
+    margin-top: 5rem;
+
+}
+
+@media screen and (min-width: 861px) {
+    hr {
+        margin-left: 11rem;
+        margin-right: 11rem;
+    }
+
+}
