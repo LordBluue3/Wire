@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wire</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/home/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home/header.css">
+    <link rel="stylesheet" href="css/home/principal.css">
+    <link rel="stylesheet" href="css/home/apresentacao.css">
+    <link rel="stylesheet" href="css/home/carrosel.css">
+    <link rel="stylesheet" href="css/produtos/galeria_produtos.css">
+    <link rel="stylesheet" href="css/home/galeria.css">
+    <link rel="stylesheet" href="css/home/blog.css">
+    <link rel="stylesheet" href="css/ancorando.css">
+    <link rel="stylesheet" href="css/home/newsletter.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <header class="header__ancora" id="ancorado">
+
+        <button class="menu__hamburguer" id="menu__hamburguer" onclick="nav_responsiva()"> </button>
+
+        <div class="container__nav-all">
+            <div class="imagens__logo" id="imagens__logo">
+                <img src="/assets/img/logo.svg" alt="Logo da Wire" class="logo__header" id="logo__header">
+            </div>
+            <nav class="nav__itens">
+                <ul class="itens">
+                    <li><a href="home.html" class="itens__texto">Home</a></li>
+                    <li><a href="telas/institucional.html" class="itens__texto">Institucional</a></li>
+                    <li><a href="telas/produtos.html" class="itens__texto">Produtos</a></li>
+                    <li><a href="telas/blog.html" class="itens__texto">Blog</a></li>
+                    <li><a href="telas/contato.html" class="itens__texto">Contato</a></li>
+                </ul>
+            </nav>
+            <article class="container__redes-nav">
+                <ul class="container__icons-nav">
+                    <li class="icons__redes"><img src="assets/img/youtube.svg" class="icon-nav"></li>
+                    <li class="icons__redes"><img src="assets/img/face.svg" class="icon-nav"></li>
+                    <li class="icons__redes"><img src="assets/img/linkedin.svg" class="icon-nav"></li>
+                    <li class="icons__redes"><img src="assets/img/insta.svg" class="icon-nav"></li>
+                </ul>
+
+            </article>
+        </div>
+        <div class="container__zap">
+            <img src="/assets/img/zap_fixo.svg" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="principal__sobreposicao">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                    <div class="item active">
+                        <div class="principal__container">
+
+                        </div>
+                        <p class="texto__principal">Sed ut perspiciatis unde omnis iste natus</p>
+                    </div>
+
+                    <div class="item">
+                        <div class="principal__container">
+
+                        </div>
+                        <p class="texto__principal">Sed ut perspiciatis unde omnis iste natus</p>
+                    </div>
+
+                    <div class="item">
+                        <div class="principal__container">
+
+                        </div>
+                        <p class="texto__principal">Sed ut perspiciatis unde omnis iste natus</p>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+
+            </div>
+
+        </section>
+        <section class="carrosel__desk">
+            <div class="carrosel__versao-desk">
+                <div class="container__itens-desk">
+                    <img class="img__carrosel-itens"></img>
+                    <p class="texto__carrosel">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium</p>
+                </div>
+                <div class="container__itens-desk" id="carrosel__2">
+                    <img class="img__carrosel-itens"></img>
+                    <p class="texto__carrosel">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium</p>
+                </div>
+                <div class="container__itens-desk" id="carrosel__3">
+                    <img class="img__carrosel-itens"></img>
+                    <p class="texto__carrosel">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                        accusantium</p>
+                </div>
+            </div>
+            
+            </div>
+
+        </section>
+        <section class="apresentacao">
+            <h1 class="titulo__apresentacao">Sed ut perspiciatis unde omnis</h1>
+            <div class="container__apresentacao_foto">
+                <img  class="foto">
+            </div>
+            <div class="container__apresentacao_texto">
+                <p class="texto__apresentacao">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui.</p>
+            </div>
+
+        </section>
+        <section class="galeria">
+            <div class="container__galeria">
+                <h1 class="titulo__galeria">Galeira Produtos</h1>
+                <div class="container__box-galeria">
+                    <div class="container__conteudo-produtos" onclick="redirecionar_galeria_produtos()">
+                        <article class="produto"></article>
+                        <p class="texto_conteudo">Sed ut perspiciatis unde omnis</p>
+                        <div class="container__vejamais">
+                            <img src="../assets/img/veja_mais.svg">
+                        </div>
+                    </div>
+                    <div class="container__conteudo-produtos" onclick="redirecionar_galeria_produtos()">
+                        <article class="produto"></article>
+                        <p class="texto_conteudo">Sed ut perspiciatis unde omnis</p>
+                        <div class="container__vejamais">
+                            <img src="../assets/img/veja_mais.svg">
+                        </div>
+                    </div>
+                    <div class="container__conteudo-produtos" onclick="redirecionar_galeria_produtos()">
+                        <article class="produto"></article>
+                        <p class="texto_conteudo">Sed ut perspiciatis unde omnis</p>
+                        <div class="container__vejamais">
+                            <img src="../assets/img/veja_mais.svg">
+                        </div>
+                    </div>
+                    <div class="container__conteudo-produtos" onclick="redirecionar_galeria_produtos()" id="box_sumir">
+                        <article class="produto"></article>
+                        <p class="texto_conteudo">Sed ut perspiciatis unde omnis</p>
+                        <div class="container__vejamais">
+                            <img src="../assets/img/veja_mais.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="container__image">
+                    <img src="/assets/img/veja_mais.svg" alt="Veja Mais Da Wire" onclick="redirecionar_galeria()">
+                </div>
+            </div>
+            <img class="banner__produto">
+
+        </section>
+        <section class="blog">
+            <div class="cotaniner__blog">
+                <h1 class="titulo__blog">Blog</h1>
+                <img src="/assets/img/veja_mais.svg" alt="Veja Mais Da Wire" onclick="redirecionar_galeria()">
+            </div>
+            <div class="container__conteudo-blog">
+                <div class="container__conteudo-produtos-blog" onclick="redirecionar_galeria_produtos()">
+                    <article class="produto-blog"></article>
+                    <p class="texto_conteudo">Sed ut perspiciatis unde omnis</p>
+                    <div class="container__vejamais-blog">
+                        <img src="../assets/img/veja_mais.svg">
+                    </div>
+                </div>
+                <div class="container__conteudo-produtos-blog" onclick="redirecionar_galeria_produtos()">
+                    <article class="produto-blog"></article>
+                    <p class="texto_conteudo">Sed ut perspiciatis unde omnis</p>
+                    <div class="container__vejamais-blog">
+                        <img src="../assets/img/veja_mais.svg">
+                    </div>
+                </div>
+                <div class="container__conteudo-produtos-blog" onclick="redirecionar_blog()">
+                    <article class="produto-blog"></article>
+                    <p class="texto_conteudo">Sed ut perspiciatis unde omnis</p>
+                    <div class="container__vejamais-blog">
+                        <img src="../assets/img/veja_mais.svg">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="ancorando">
+            <a href="#ancorado" class="a__ancora-desk"><img src="/assets/img/top-bot.svg"
+                    alt="Ancora para subir ao topo da página" class="ancorando__desk"></a>
+        </section>
+
+        <hr>
+
+        <section class="newsletter">
+            <div class="container__newsletter">
+                <h1 class="titulo__newsletter">Assine nossa newsletter</h1>
+                <form class="form__newsletter">
+                    <input type="email" name="email" class="input__newsletter_email" placeholder="Cadastre seu e-mail">
+                    <button type="button" class="button_newsletter">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <hr>
+
+        <section class="contato">
+            <address>
+                <img src="/assets/img/logo.svg" class="logo__footer_wire-desk">
+                <article class="container__email">
+                    <h1 class="titulo__contato">e-mail</h1>
+                    <p class="informacao__contato">contato@cliente.com.br</p>
+                </article>
+                <article class="container__telefone">
+                    <h1 class="titulo__contato">Telefone:</h1>
+                    <p class="informacao__contato">(11) 1234-5678</p><br>
+                    <p class="informacao__contato">(11) 9 4568-7894</p>
+                </article>
+                <article class="container__redes">
+                    <h1 class="titulo__contato">Siga nossas redes</h1>
+                    <ul class="container__icons">
+                        <li class="icons__redes"><img src="assets/img/youtube.svg" class="icon"></li>
+                        <li class="icons__redes"><img src="assets/img/face.svg" class="icon"></li>
+                        <li class="icons__redes"><img src="assets/img/linkedin.svg" class="icon"></li>
+                        <li class="icons__redes"><img src="assets/img/insta.svg" class="icon"></li>
+                    </ul>
+                    <img src="/assets/img/logo.svg" class="logo__footer_wire">
+                </article>
+            </address>
+
+        </section>
+    </main>
+    <footer>
+        <a href="#ancorado" class="a__ancora"><img src="/assets/img/top-bot.svg"
+                alt="Ancora para subir ao topo da página" class="ancora"></a>
+    </footer>
+</body>
+<script src="js/redirecionar.js"></script>
+<script src="js/header.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</html>
