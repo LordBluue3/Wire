@@ -1,0 +1,25 @@
+.container__desk{
+    margin-left: 20.625rem ;
+    margin-right: 20.625rem ;
+}
+@media screen and (max-width: 1666px) {
+    .container__desk{
+        margin-left: 13.625rem ;
+        margin-right: 13.625rem ;
+    }
+    
+}
+@media screen and (max-width: 1320px) {
+    .container__desk{
+        margin-left: 5.625rem ;
+        margin-right: 5.625rem ;
+    }
+    
+}
+@media screen and (max-width: 720px) {
+    .container__desk{
+        margin-left: 0rem ;
+        margin-right: 0rem ;
+    }
+    
+}
