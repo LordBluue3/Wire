@@ -99,11 +99,9 @@ hr {
 
 }
 
+
 @media screen and (max-width: 1000px) {
-    hr {
-        margin-left: 11rem;
-        margin-right: 11rem;
-    }
+
 
     .texto_conteudo {
        display: none;
@@ -135,6 +133,21 @@ hr {
         
     }
 
+    
+}
+@media screen and (max-width: 890px) {
+    .produtos{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .produtos{
+        margin-left: 0;
+        margin-right: 0;
+    }
     
 }
 
