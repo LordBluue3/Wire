@@ -4,3 +4,9 @@
     top: 34%;
     cursor: pointer;
 }
+@media screen and (max-width:890px) {
+    .container__zap{
+        display: none;
+    }
+    
+}
