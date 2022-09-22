@@ -35,6 +35,11 @@
     text-align: left;
 }
 
+.hr__apresentacao{
+    display: none;
+}
+
+
 .texto__apresentacao {
     font-family: 'Segoe UI, Regular';
     color: var(--ciza-fonte);
@@ -50,6 +55,14 @@
     height: 20rem;
 }
 
+@media screen and (min-width:400px) {
+    .hr__apresentacao{
+        display: block;
+        border-top: 1px solid #333 !important;
+    }
+    
+}
+
 @media screen and (min-width:407px) {
     .foto{
         background-image: url("../../assets/img/banner_principal.svg");
@@ -58,6 +71,10 @@
     .container__apresentacao_foto{
         height: 30rem;
         width: 75%;
+    }
+
+    .titulo__apresentacao{
+        margin-top: 8rem;
     }
 
     
@@ -70,13 +87,20 @@
 }
 @media screen and (min-width:1000px) {
     .container__apresentacao_texto{
-        width: 33%;
+        width: 53%;
+        text-align: center !important;
     }
     
 }
 @media screen and (min-width:400px) {
     #myCarousel{
         display: none;
+    }
+    
+}
+@media screen and (min-width:1050px) {
+    .titulo__apresentacao{
+        font-size: 3rem;
     }
     
 }

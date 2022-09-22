@@ -70,12 +70,13 @@ address {
 .icon {
     width: 2.5rem;
     background-image: url("../assets/img/face.svg");
+    cursor: pointer;
 }
 
 @media screen and (min-width: 890px) {
     .contato > address {
         display: flex;
-        margin-bottom: 332px;
+        margin-bottom: 160px;
     }
     .logo__footer_wire{
         display: none;
@@ -136,6 +137,7 @@ address {
         display: flex;
         padding-top: 5rem;
         margin-left: 5rem;
+        cursor: pointer;
     }
     
 }

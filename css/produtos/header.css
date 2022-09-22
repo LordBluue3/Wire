@@ -4,7 +4,8 @@ header {
     align-items: flex-start;
     height: 3rem;
 }
-.imagens__logo{
+
+.imagens__logo {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -15,15 +16,18 @@ header {
     width: 11rem;
     padding-left: 0.5rem;
     margin-left: 1rem;
+    cursor: pointer;
+}
+
+.nav__itens {
+    height: 2rem;
 }
 
 ul {
     display: flex;
     height: 0;
-    
+
 }
-
-
 
 .menu__hamburguer {
     display: none;
@@ -35,13 +39,13 @@ ul {
     width: 1.5rem;
     background-repeat: no-repeat;
     margin-top: 2.6rem;
-    
 
 }
 
 ul>li {
     margin: 1rem;
 }
+
 .container__redes-nav {
     display: flex;
     justify-content: center;
@@ -50,68 +54,23 @@ ul>li {
     margin-right: 3.688rem;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .container__icons-nav {
     display: flex;
     flex-direction: row;
+    height: 2.5rem;
 
 }
 
 .icon-nav {
     width: 2.5rem;
     background-image: url("../assets/img/face.svg");
+    cursor: pointer;
 }
 
-/*@media screen and (max-width: 630px) {
-
-    header {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-    }
-    .imagens__logo{
-        display: flex;
-    }
-
-    .menu__hamburguer {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        right: 1rem;
-
-    }
-
-    nav {
-        width: 100%;
-
-    }
-
-    .itens>li {
-        width: 100%;
-        text-align: center;
-        font-weight: bolder;
-
-    }
-
-    nav>ul {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        overflow: hidden;
-    }
-    
-    .itens__texto{
-        font-size: 1.875rem;
-        font-family: 'Segoe UI';
-        font-weight: 400;
-        color: var(--ciza-fonte);
-    }
-
-}*/
 @media screen and (max-width: 860px) {
-
     header {
         display: flex;
         justify-content: flex-start;
@@ -119,7 +78,8 @@ ul>li {
         height: 3rem !important;
         border: none !important;
     }
-    .imagens__logo{
+
+    .imagens__logo {
         display: flex;
     }
 
@@ -152,8 +112,8 @@ ul>li {
         width: 100%;
         overflow: hidden;
     }
-    
-    .itens__texto{
+
+    .itens__texto {
         font-size: 1.875rem;
         font-family: 'Segoe UI';
         font-weight: 400;
@@ -161,22 +121,34 @@ ul>li {
     }
 
 }
-@media  screen and (max-width: 1920px) {
 
-
-    header{
-        height: 8rem;
+@media screen and (min-width: 891px) {
+    .container__nav-all {
+        background-color: white;
+        padding-bottom: 2rem;
         border: 1px solid var(--ciza-fonte);
+        position: fixed;
+
     }
-    .container__nav-all{
+    
+}
+
+@media screen and (max-width: 1920px) {
+    header {
+        height: 8rem;
+       
+    }
+
+    .container__nav-all {
         display: flex;
         width: 100%;
-        justify-content: space-around ;
+        justify-content: space-around;
         align-items: center;
         text-align: center;
 
     }
-    .imagens__logo{
+
+    .imagens__logo {
         width: 15%;
         height: 100%;
         margin-top: 1rem;
@@ -184,20 +156,21 @@ ul>li {
         justify-content: center;
         margin-left: 5.5rem;
     }
-    .logo__header{
-        width: clamp(15rem,20rem,5rem);
-        
+
+    .logo__header {
+        width: clamp(15rem, 20rem, 5rem);
+
     }
+
     .itens>li {
         width: 100%;
         text-align: center;
         font-family: 'Segoe UI';
         font-weight: 400;
         color: var(--ciza-fonte);
-        font-size: clamp(1rem,1.5rem,2rem) 
-
+        font-size: clamp(1rem, 1.5rem, 2rem)
     }
-     
+
 }
 
 @media screen and (max-width: 1435px) {
@@ -210,20 +183,19 @@ ul>li {
         margin-right: 3.688rem;
         align-items: center;
         text-align: center;
-        
+
     }
-    
+
     .container__icons-nav {
         display: none;
         flex-direction: row;
-    
-    
+
     }
-    
+
     .icon-nav {
         width: 2.5rem;
         background-image: url("../assets/img/face.svg");
         visibility: hidden;
     }
-    
+
 }

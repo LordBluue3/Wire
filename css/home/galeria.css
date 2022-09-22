@@ -5,6 +5,16 @@
     padding-left: 1rem;
     color: var(--ciza-fonte);
 }
+.container__galeria-desk{
+    display: none;
+}
+.titulo__galeria-desk {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 1.875rem;
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+}
 
 .container__galeria {
     margin-left: 2.313rem;
@@ -47,7 +57,7 @@
 
 .banner__produto {
     width: 100%;
-    padding-top: 5.063rem;
+    
     background-image: url("../../assets/img/banner-produto.svg");
     background-repeat: no-repeat;
     height: 30rem;
@@ -67,7 +77,6 @@
 @media screen and (min-width:363px) {
     .banner__produto {
         width: 100%;
-        padding-top: 5.063rem;
         height: 30rem;
         background-image: url("../../assets/img/banner-destaque-home.svg");
         background-repeat: no-repeat;
@@ -78,6 +87,25 @@
 @media screen and (max-width:700px) {
     .texto_conteudo{
         display: none !important;
+    }
+    
+}
+@media screen and (min-width:700px) {
+    .container__galeria-desk{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-right: 5rem;
+    
+    }
+    .titulo__galeria{
+        display: none;
+    }
+    .container__image{
+        display: none;
+    }
+    .container__box-galeria{
+        margin-bottom: 4rem;
     }
     
 }

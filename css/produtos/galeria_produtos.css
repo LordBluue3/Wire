@@ -70,13 +70,22 @@ hr {
     margin-left: 2.406rem;
     margin-right: 2.344rem;
     margin-top: 5rem;
+    border-top: 1px solid #333 !important;
 
 }
+
+@media screen and (max-width:1067) {}
 
 @media screen and (min-width: 861px) {
     hr {
         margin-left: 11rem;
         margin-right: 11rem;
+        color: var(--ciza-fonte);
+        border-radius: 1px;
+        margin-left: 2.406rem;
+        margin-right: 2.344rem;
+        margin-top: 5rem;
+        border-top: 1px solid #333 !important;
     }
 
 }
@@ -163,6 +172,21 @@ hr {
     .produto {
         width: 15rem;
         height: 20rem;
+    }
+
+    hr {
+        margin-left: 11rem;
+        margin-right: 11rem;
+        color: var(--ciza-fonte);
+        border-radius: 1px;
+        margin-left: 2.406rem;
+        margin-right: 2.344rem;
+        margin-top: 0;
+        border-top: 1.9px solid #333 !important;
+    }
+
+    .hr__newsletter-mobiel {
+        display: none;
     }
 
 

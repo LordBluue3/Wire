@@ -6,6 +6,7 @@
     align-items: center;
 }
 
+
 .titulo__newsletter {
     font-family: 'Segoe UI';
     font-weight: bolder;
@@ -15,6 +16,22 @@
     margin-top: 8rem;
     width: 16rem;
 }
+
+.input__newsletter_nome {
+    color: transparent;
+    border-radius: 5px;
+    height: 3.375rem;
+    width: 17.699rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1.625rem;
+    margin-top: 1.75rem;
+    font-size: 1.20rem;
+    border: 1px solid var(--ciza-fonte);
+    color: black;
+}
+
 
 .input__newsletter_email {
     color: transparent;
@@ -43,9 +60,16 @@
 }
 
 @media screen and (min-width:1067px) {
+    .container__newsletter{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (min-width:1067px) {
     .container__newsletter {
         border: 1px solid var(--ciza-fonte);
-        width: 80%;
+        padding-top: 7rem;
     }
 
     .form__newsletter {
@@ -67,13 +91,43 @@
     .input__newsletter_email {
         border-radius: 0;
         height: 4rem;
-        width: 40rem;
+        width: 20rem;
+    }
+
+    .input__newsletter_nome {
+        border-radius: 0;
+        height: 4rem;
+        width: 20rem;
     }
 
     .button_newsletter {
         height: 4rem;
         border-radius: 0;
         margin-left: 1rem;
+    }
+
+    .container__titulo_newslleter {
+        padding-left: 16rem;
+        width: 100%;
+    }
+
+    .titulo__newsletter {
+        margin-bottom: 5rem;
+        font-size: 3rem;
+        width: 43rem;
+    }
+
+}
+@media screen and (min-width:1330px) {
+    .container__newsletter{
+        width: 65%;
+    }
+    
+}
+
+@media screen and (min-width:1086px) {
+    .newsletter {
+        margin-top: 5rem;
     }
 
 }

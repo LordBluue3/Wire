@@ -29,14 +29,12 @@ input[type="radio"]:checked {
     height: 1.3rem;
 }
 
-.carrosel__desk {}
-
 .carrosel__versao-desk {
     width: 100%;
     height: 36rem;
     display: none;
     justify-content: center;
-    margin-top: 13rem;
+    margin-top: 5rem;
 }
 
 #carrosel__2 {

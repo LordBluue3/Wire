@@ -12,6 +12,15 @@
     color: var(--ciza-fonte);
 
 }
+.titulo__blog-desk {
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    font-size: 1.875rem;
+    padding-left: 1rem;
+    color: var(--ciza-fonte);
+    display: none;
+}
+
 
 .container__conteudo-blog {
     overflow: hidden;
@@ -59,12 +68,22 @@
     color: var(--ciza-fonte);
     margin-bottom: 2rem;
     display: block;
+    margin-top: 1rem;
+}
 
+@media screen and (min-width:700px) {
+    .titulo__blog-desk {
+        display: block;
+    }
+    .titulo__blog {
+        display: none;
+    }
+    
 }
 
 @media screen and (min-width:890px) {
     .container__conteudo-blog{
-        justify-content: space-evenly;
+        justify-content: center;
     }
     
 }
