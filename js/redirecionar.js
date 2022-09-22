@@ -7,3 +7,9 @@ function redirecionar_galeria_produtos(){
 function redirecionar_blog(){
     window.location.href="telas/blog2.html"
 }
+function redirecionar_home(){
+    window.location.href="../index.html"
+}
+function redirecionar_home_index(){
+    window.location.href="index.html"
+}
